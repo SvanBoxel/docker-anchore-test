@@ -30,5 +30,6 @@ jobs:
         acs-report-enable: true
     - name: Upload Anchore Scan Report
       uses: github/codeql-action/upload-sarif@v1
+      if: always()
       with:
         sarif_file: results.sarif
