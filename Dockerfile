@@ -1,2 +1,1 @@
-FROM bitnami/node:latest
-
+FROM nimmis/java:openjdk-8-jdk
